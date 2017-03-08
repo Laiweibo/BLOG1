@@ -20,7 +20,7 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 
 public class Weight extends Activity {
     /** Called when the activity is first created. */
-    public static String sex="";
+    public static String sex="M";
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
