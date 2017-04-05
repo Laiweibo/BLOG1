@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContextMenu</string>
+    <string name="newfile">新建</string>
+    <string name="open">打开</string>
+    <string name="text">上下文菜单</string>
+</resources>
