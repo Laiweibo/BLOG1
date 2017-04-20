@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:hint="@string/searchHint"
+    android:label="@string/searchLable"
+    android:searchMode="showSearchLabelAsBadge"
+    android:searchSuggestAuthority="com.coding.searchmanagerdemo.SearchSuggestionSampleProvider"
+    android:searchSuggestSelection=" ? ">
+</searchable>
+<!-- label为搜索框上方的文本，hint搜索框里面的提示文本 
+ android:hint="@string/searchHint"
+ android:label="@string/searchLable" 
+ -->
+<!-- 语音搜索配置
+ android:voiceSearchMode="showVoiceSearchButton|launchRecognizer"
+ android:voiceLanguageModel="free_form"
+ android:voicePromptText="@string/search_invoke"
+ -->
+<!-- 配置搜索建议，配置错误将不会显示
+searchSuggestAuthority的值必须是继承自SearchRecentSuggestionsProvider的完整路径名
+ android:searchSuggestAuthority="com.coding.searchmanagerdemo.SearchSuggestionSampleProvider"
+ android:searchSuggestSelection=" ? "
+ -->
